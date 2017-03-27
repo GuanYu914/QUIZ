@@ -15,7 +15,7 @@ int main(void){
 		if(strcmp(input,"hello") == 0){
 			printf("HelloWord ! \n");
 		}else if(strcmp(input,"bye") == 0){
-			printf("Bye ! \n");
+			break;
 		}else{
 			printf("InputError\n");
 		}
